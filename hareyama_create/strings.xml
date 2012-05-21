@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BanActivity!</string>
+    <string name="app_name">Ban</string>
+    <string name="title_name">TRANS-AM</string>
+	<string name="start_button_name">start</string>
+	<string name="howto_button_name">how to</string>
+</resources>
