@@ -6,4 +6,16 @@
     <string name="title_name">TRANS-AM</string>
 	<string name="start_button_name">start</string>
 	<string name="howto_button_name">how to</string>
+	<string name="gameover_name">ゲイムオーバー</string>
+	<string name="score_name">スコア詳細</string>
+	<string name="score_in_name">スコア詳細</string>
+	<string name="retry_button_name">　リトライ　</string>
+	<string name="gameover_button_name">ゲイムオーバー</string>
+	<string name="highest_jump_name"     >Highest Jump : </string>
+	<string name="longest_jump_name"     >Longest Jump : </string>
+	<string name="biggest_splash_name"   >Biggest Splash : </string>
+	<string name="longest_tailslide_name">Longest Tailslide : </string>
+	<string name="highest_speed_name"    >Highest Speed : </string>
+	<string name="longest_combo_name"    >Longest Combo : </string>
+	<string name="final_score_name"      >Final Score : </string>
 </resources>
