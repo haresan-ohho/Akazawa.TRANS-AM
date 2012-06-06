@@ -11,7 +11,7 @@
 
             <!-- スコアの画像 -->
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/score"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/result"
@@ -204,7 +204,7 @@
 
                 <!-- retrybutton -->
                 <Button
-                    android:id="@+id/btn4"
+                    android:id="@+id/retry_Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
@@ -214,18 +214,18 @@
 
                 <!-- scorebutton -->
                 <Button
-                    android:id="@+id/btn5"
+                    android:id="@+id/score_Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:layout_toLeftOf="@+id/btn6"
-                    android:layout_toRightOf="@+id/btn4"
+                    android:layout_toLeftOf="@+id/gameover_Button"
+                    android:layout_toRightOf="@+id/retry_Button"
                     android:text="@string/score_in_name" >
                 </Button>
 
                 <!-- gaymeover -->
                 <Button
-                    android:id="@+id/btn6"
+                    android:id="@+id/gameover_Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
