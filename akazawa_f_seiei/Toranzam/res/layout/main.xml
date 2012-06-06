@@ -17,6 +17,7 @@
 <include android:id="@+id/thirdlayout" layout="@layout/third" />
 <include android:id="@+id/foralayout" layout="@layout/fora" />
 <include android:id="@+id/fivelayout" layout="@layout/five" />
+<include android:id="@+id/sixlayout" layout="@layout/six" />
 </ViewFlipper>
 
 </LinearLayout>
