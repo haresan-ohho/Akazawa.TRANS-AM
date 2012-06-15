@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ActivityAnimation</string>
+    <string name="app_name0">Activity0</string>
+	<string name="app_name1">Activity1</string>
+	<string name="activity_animation_duration">300</string>
+</resources>
