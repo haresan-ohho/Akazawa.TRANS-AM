@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-    
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
     <ne.jp.android.MyDrawingView
-        required="true"
-        android:id="@+id/login.id"    
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:id="@+id/login.id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
     />
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/swim_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    </Button>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn3"
+        android:layout_toRightOf="@+id/btn1"
+        android:visibility="invisible">
+    </Button>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/right_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true">
+    </Button>
+
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/spiral_arrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+    </Button>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btn6"
+        android:layout_toRightOf="@+id/btn4">
+    </Button>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/left_arrow"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true">
+    </Button>
+</RelativeLayout>
+    </FrameLayout>
 
 
     
-    </FrameLayout>
