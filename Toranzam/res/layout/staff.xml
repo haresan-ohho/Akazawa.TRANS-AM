@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollView"  
+  android:layout_height="fill_parent"  
+  android:layout_width="fill_parent">  
+  
+<LinearLayout 
+	android:id="@+id/ll1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity ="center">
+    
+    <TableLayout 
+    android:id="@+id/tableLayout1" 
+    android:layout_height="match_parent" 
+    android:layout_width="wrap_content">
+    	<TextView 
+        	android:text="このソフトの愉快な製作者たち" 
+        	android:textSize="25sp" 
+        	android:id="@+id/tv0" 
+        	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+        	android:text=" " 
+        	android:textSize="25sp" 
+        	android:id="@+id/tv90" 
+        	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+        	android:text="チィムリィダァ 　アカザワンチュク" 
+        	android:textSize="25sp" 
+        	android:id="@+id/tv1" 
+        	android:layout_width="fill_parent" 
+       		android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+        	android:id="@+id/tv2" 
+        	android:text="マネージャー 　┌(┌ ＾ｏ＾)┐ｶﾓｫ…" 
+        	android:textSize="25sp"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+       	 	android:id="@+id/tv3" 
+       	 	android:text="アイデア班　　ハレヤマーライオン" 
+       	 	android:textSize="25sp"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content">
+        </TextView>
+        <TextView android:layout_width="fill_parent" android:text="速度計算班 　　　カワウソ" android:id="@+id/tv4" android:layout_height="wrap_content" android:textSize="25sp"></TextView>
+        <TextView 
+        	android:id="@+id/tv5" 
+        	android:text="速度計算班 　　トヨタ" 
+        	android:textSize="25sp"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+        	android:id="@+id/tv6" 
+        	android:text="癒し系　　　　　　 阿部　高和" 
+        	android:textSize="25sp"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content">
+        </TextView>
+        <TextView 
+        	android:id="@+id/tv7" 
+        	android:text="©　(*´ω｀*)" 
+        	android:textSize="25sp"
+        	android:layout_width="fill_parent" 
+        	android:layout_height="wrap_content">
+        </TextView>
+    </TableLayout>
+	<Button
+    	android:id="@+id/button_reference"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="centerInParent"
+    	android:layout_centerInParent="true"
+    	android:visibility="gone"
+    />   
+    <Button 
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+        android:text="戻る(*´ω｀*)" 
+        android:id="@+id/button7"
+        android:layout_alignRight="@id/button_reference"
+		android:layout_alignBottom="@id/button_reference"
+        android:layout_alignWithParentIfMissing="true">
+   	</Button>
+</LinearLayout>
+</ScrollView>

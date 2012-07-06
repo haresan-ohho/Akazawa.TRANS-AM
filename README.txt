@@ -6,7 +6,7 @@
 制作者		盛岡情報ビジネス専門学校　システム工学コース　赤澤
 開発環境		eclipseで作成
 動作環境		Android2.2
-バージョン　　　 0.3.0
+バージョン　　　 0.3.
 最終更新日	2012/07/06
 ファイル名
 同梱ファイル
@@ -80,6 +80,7 @@ email
     E-mail : 
 
 履歴
+2012/07/06 ver0.3.1 プロジェクトを纏めておくToranzamフォルダを設置
 2012/07/06 ver0.3.0 README改変　create_kamo更新　create_akazawaFseiei更新　image大幅更新
 2012/06/15 ver0.2.3 不要部分削除
 2012/06/15 ver0.2.2 kamo_create
